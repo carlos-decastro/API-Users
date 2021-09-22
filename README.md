@@ -16,7 +16,7 @@ Foi utilizado o UUID para os ID no banco de dados em vez de numerais expostos.
 
 ## Pré-requisitos
 
-É necessário instalar ou possuir instalado o [**Node.js**](%28https://nodejs.org/en/%29) e para facilitar o [**Docker**](%28https://www.docker.com/%29) e [**Insomnia**](%28https://insomnia.rest/%29), porém ambos podem ser trocados por softwares de suas preferencias.
+É necessário instalar ou possuir instalado o [Node.js](https://nodejs.org/en/)** e para facilitar o [Docker](https://www.docker.com/) e [Insomnia](https://insomnia.rest/), porém ambos podem ser trocados por softwares de suas preferencias.
 
 ## Como Usar
 
