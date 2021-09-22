@@ -41,8 +41,8 @@ Foi utilizado o UUID para os ID no banco de dados em vez de numerais expostos.
 
 		CREATE USER: Rota POST http://localhost:3000/users - Formato JSON
 				{
-					"first_name: "",
-					"last_name: "",
+					"first_name": "",
+					"last_name": "",
 					"email": "",
 					"phone": "",
 					"address": ""
@@ -58,9 +58,9 @@ Foi utilizado o UUID para os ID no banco de dados em vez de numerais expostos.
 		DELETE USER: Rota DELETE http://localhost:3000/users/"Inserir o ID desejado" - Formato NO BODY
 			
 		UPDATE USER: Rota PUT http://localhost:3000/users/"Inserir o ID desejado" - Formato JSON
-			   {
-					"first_name: "",
-					"last_name: "",
+				{
+					"first_name": "",
+					"last_name": "",
 					"email": "",
 					"phone": "",
 					"address": ""
