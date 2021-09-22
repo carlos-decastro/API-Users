@@ -12,7 +12,7 @@ API de usuários utilizando as seguintes tecnologias e extensões: **NodeJS, Pos
 
 Projeto realizado afim de demonstrar meus conhecimentos sobre a criação de API Restful utilizando Node.js e SQL.
 
-Foi utilizado o UUID para os ID no banco de dados em vez de numerais expostos.
+Foi utilizado o UUID para os IDs no banco de dados em vez de numerais expostos.
 
 ## Pré-requisitos
 
