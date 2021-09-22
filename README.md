@@ -18,6 +18,8 @@ Foi utilizado o UUID para os IDs no banco de dados em vez de numerais expostos.
 
 É necessário instalar ou possuir instalado o [Node.js](https://nodejs.org/en/) e para facilitar o [Docker](https://www.docker.com/) e [Insomnia](https://insomnia.rest/), porém ambos podem ser trocados por softwares de suas preferencias.
 
+Obs: O uso do Docker pode ser subsituido pelo [PostgreSQL](https://www.postgresql.org/) direto (Informação colocada em forma de comentário no arquivo).
+
 ## Como Usar
 
 - Para iniciar, realize o download do repositório ou clone o mesmo.
@@ -33,6 +35,8 @@ Foi utilizado o UUID para os IDs no banco de dados em vez de numerais expostos.
 	- OBS: Executar primeiro o comando da linha 1, depois seguir as informações que constam nos comentários do arquivo.
 - Abra o cmd na pasta do projeto utilizando o VSCode e execute o comando **yarn dev** para iniciar o servidor do projeto.
 - Com o servidor online é possível iniciar os testes de rotas e funcionamento da API.
+
+- Caso for utilizar o **PostgreSQL** diretamente em vez do Docker, é necessário alterar a porta de **5422 para 5432** no arquivo **index.js dentro da pasta database**
 
 ## Testes
 
